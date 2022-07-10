@@ -1,0 +1,11 @@
+query FetchUsers {
+  items: users {
+    age
+    created_at
+    hobbies
+    id
+    name
+    score
+    updated_at
+  }
+}

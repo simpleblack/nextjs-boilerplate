@@ -1,0 +1,11 @@
+query GetPost {
+  posts {
+    content
+    count
+    id
+    created_at
+    title
+    updated_at
+    user_id
+  }
+}
